@@ -1,0 +1,26 @@
+.error-comment{
+    background-color: red;
+    opacity: 20%;
+}
+
+
+.error{
+    color: red;
+}
+
+.plus{
+    color: green;
+}
+
+.minus{
+    color: red;
+}
+
+
+.none{
+    display: none;
+}
+
+.ui-page-slider-workarea {
+    padding-bottom: 20px;
+}

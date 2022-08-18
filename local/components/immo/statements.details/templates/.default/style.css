@@ -1,0 +1,35 @@
+div.main-grid-container {
+    overflow-x: hidden!important;
+}
+
+div.detail-statements-main-info {
+    float: left;
+    background: #fff;
+    margin: 1rem auto;
+    font-size: 1.1rem;
+    padding-left: 1em;
+}
+
+.div.buttons-area {
+    float: right;
+}
+
+table.main-grid-panel-table {
+    display: none!important;
+}
+
+.final-row {
+    border-top: 2px #000 solid!important;
+    border-bottom: none!important;
+    cursor: auto!important;
+
+}
+
+.final-row-title {
+    font-weight: bold!important;
+    padding: 1em!important;
+}
+
+.final-row:focus {
+    cursor: auto!important;
+}

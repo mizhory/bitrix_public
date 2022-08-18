@@ -1,0 +1,19 @@
+.table_top_border {
+    border-top: 1px solid;
+}
+
+.table_left_border {
+    border-left: 1px solid;
+}
+
+.table_right_border {
+    border-right: 1px solid;
+}
+
+.table_bottom_border {
+    border-bottom: 1px solid;
+}
+
+.required-motivation {
+    color: red;
+}

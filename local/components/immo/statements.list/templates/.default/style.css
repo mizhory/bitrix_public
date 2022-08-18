@@ -1,0 +1,10 @@
+.button-as-string {
+    border: none;
+    border-bottom: #2d323c solid 1px;
+    background: none;
+    cursor: pointer;
+}
+
+table.main-grid-panel-table {
+    display: none!important;
+}

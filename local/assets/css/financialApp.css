@@ -1,0 +1,7 @@
+.bx-interface-form form .bx-buttons input[name="apply"] {
+    display: none;
+}
+
+#workarea-content font.errortext {
+    display: none;
+}

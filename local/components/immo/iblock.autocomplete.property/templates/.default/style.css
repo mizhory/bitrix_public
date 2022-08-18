@@ -1,0 +1,7 @@
+body .select2-container--default .select2-selection--single .select2-selection__arrow {
+    display: none;
+}
+
+.iblock-autocomplete-field {
+    min-width: 200px;
+}

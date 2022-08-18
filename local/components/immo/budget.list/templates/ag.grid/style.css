@@ -1,0 +1,11 @@
+.vertical-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    word-break: break-word;
+}
+
+#workarea-content .workarea-content-paddings {
+    padding: 0;
+}

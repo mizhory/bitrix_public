@@ -1,0 +1,32 @@
+span.status-card-wrapper {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    height: 8px;
+    min-width: 170px;
+    max-width: 350px;
+    margin-bottom: 5px;
+    border: 1px solid #cdd0d3;
+    border-radius: 2px;
+}
+
+span.status-card-wrapper span.status-card-item {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid #cdd0d3;
+}
+
+span.status-card-wrapper span.status-card-item:hover {
+    height: 8px;
+    top: -3px;
+    border-top: 3px solid #828385;
+    border-bottom: 3px solid #828385;
+}
+
+span.status-card-wrapper span.status-card-title {
+    color: #a5a9ab;
+    font-size: 13px;
+    line-height: 14px !important;
+}

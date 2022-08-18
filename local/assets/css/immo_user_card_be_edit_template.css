@@ -1,0 +1,17 @@
+.immo-itemlabel {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #444;
+}
+.immo-ui-slider-page{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.immo-ui-page-slider-content {
+    width: 98.5%;
+}
+.immo-functional-block {
+    position: relative !important;
+    padding-bottom: 15px !important;
+}

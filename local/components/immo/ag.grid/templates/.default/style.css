@@ -1,0 +1,87 @@
+.vertical-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    word-break: break-word;
+}
+
+#workarea-content .workarea-content-paddings {
+    padding: 0;
+}
+
+.grid-table-custom .bitrix24-grid-theme .ag-row, .grid-table-custom .bitrix24-grid-theme .ag-header-row {
+    color: #535c69;
+    font-size: 14px;
+    text-align: left;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.grid-table-custom .bitrix24-grid-theme .ag-header,
+.grid-table-custom .bitrix24-grid-theme .ag-root-wrapper,
+.grid-table-custom .bitrix24-grid-theme .ag-pinned-left-header,
+.grid-table-custom .bitrix24-grid-theme .budget-cell span:last-child
+{
+    background-color: inherit;
+    border: none;
+}
+
+.grid-table-custom .bitrix24-grid-theme .ag-body-viewport .ag-row {
+    font-size: 13px;
+}
+
+.grid-table-custom .bitrix24-grid-theme .ag-header, .grid-table-custom .bitrix24-grid-theme .ag-row {
+    border-bottom: 3px #EEF2F7 solid;
+}
+
+.grid-table-custom .bitrix24-grid-theme .ag-ltr .ag-cell,
+.grid-table-custom .bitrix24-grid-theme .ag-header-cell,
+.grid-table-custom .bitrix24-grid-theme .ag-cell.ag-cell-last-left-pinned:not(.ag-cell-range-right):not(.ag-cell-range-single-cell) {
+    border-right: 3px #EEF2F7 solid;
+}
+
+.grid-table-custom .bitrix24-grid-theme .ag-cell {
+    padding: 0;
+}
+
+.grid-table-custom .bitrix24-grid-theme .ag-cell .min-line-height {
+    line-height: initial;
+}
+
+.grid-table-custom .bitrix24-grid-theme .ag-cell span:not(.budget-cell) {
+    padding: 0 5px;
+}
+
+.grid-table-custom .bitrix24-grid-theme .budget-cell span {
+    border-bottom: 1px solid #bfc2c3;
+    text-align: center;
+    width: 100%
+}
+
+.grid-table-custom .bitrix24-grid-theme .ag-ltr .ag-has-focus .ag-cell-focus:not(.ag-cell-range-selected),
+.grid-table-custom .bitrix24-grid-theme .ag-ltr .ag-context-menu-open .ag-cell-focus:not(.ag-cell-range-selected),
+.grid-table-custom .bitrix24-grid-theme .ag-ltr .ag-has-focus .ag-full-width-row.ag-row-focus .ag-cell-wrapper.ag-row-group,
+.grid-table-custom .bitrix24-grid-theme .ag-ltr .ag-cell-range-single-cell,
+.grid-table-custom .bitrix24-grid-theme .ag-ltr .ag-cell-range-single-cell.ag-cell-range-handle,
+.grid-table-custom .bitrix24-grid-theme .ag-rtl .ag-has-focus .ag-cell-focus:not(.ag-cell-range-selected),
+.grid-table-custom .bitrix24-grid-theme .ag-rtl .ag-context-menu-open .ag-cell-focus:not(.ag-cell-range-selected),
+.grid-table-custom .bitrix24-grid-theme .ag-rtl .ag-has-focus .ag-full-width-row.ag-row-focus .ag-cell-wrapper.ag-row-group,
+.grid-table-custom .bitrix24-grid-theme .ag-rtl .ag-cell-range-single-cell,
+.grid-table-custom .bitrix24-grid-theme .ag-rtl .ag-cell-range-single-cell.ag-cell-range-handle {
+    border-right: 3px #EEF2F7 solid;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.grid-table-custom .bitrix24-grid-theme .ag-row-hover {
+    background-color: #f6f8f9;
+}
+
+.grid-table-custom .bitrix24-grid-theme .ag-header-viewport .ag-header-container .ag-header-cell .ag-header-cell-label {
+    justify-content: center;
+}

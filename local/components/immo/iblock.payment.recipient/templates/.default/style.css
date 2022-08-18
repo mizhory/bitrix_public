@@ -1,0 +1,6 @@
+/*body table.bx-edit-table td.bx-field-value input.normal-input {*/
+/*    height: 22px;*/
+/*}*/
+input.normal-input {
+    height: 22px !important;
+}

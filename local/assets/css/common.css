@@ -1,0 +1,14 @@
+#workarea-content .bp-task-page .bp-task-block,
+.bp-popup .bp-task-page .bp-task-block
+{
+    line-height: 23px;
+    font-size: 15px;
+}
+
+#workarea-content .bp-task-page .bp-task-block > p a,
+.bp-popup .bp-task-page .bp-task-block > p a,
+#workarea-content .bp-task-page .bp-task-block > p:last-child a,
+.bp-popup .bp-task-page .bp-task-block > p:last-child a
+{
+    display: none;
+}
